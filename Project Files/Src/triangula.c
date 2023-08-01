@@ -127,61 +127,6 @@ int setPointer(double angle) {
 	}
 	return count;
 
-}
-
-// /* One revolution CW using wave step mode ..... */
-// void stepRight(void) {
-
-// 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_3, 1);
-// 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_4, 0);
-// 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_8, 0);
-// 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, 0);
-// 	HAL_Delay(5);
-// 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_3, 0);
-// 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_4, 1);
-// 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_8, 0);
-// 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, 0);
-// 	HAL_Delay(5);
-// 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_3, 0);
-// 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_4, 0);
-// 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_8, 1);
-// 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, 0);
-// 	HAL_Delay(5);
-// 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_3, 0);
-// 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_4, 0);
-// 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_8, 0);
-// 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, 1);
-// 	HAL_Delay(5);
-
-// }
-
-// /* One revolution CCW using wave step mode .... */
-// void stepLeft(void) {
-
-// 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_3, 0);
-// 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_4, 0);
-// 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_8, 0);
-// 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, 1);
-
-// 	HAL_Delay(5);
-// 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_3, 0);
-// 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_4, 0);
-// 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_8, 1);
-// 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, 0);
-
-// 	HAL_Delay(5);
-// 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_3, 0);
-// 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_4, 1);
-// 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_8, 0);
-// 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, 0);
-// 	HAL_Delay(5);
-// 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_3, 1);
-// 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_4, 0);
-// 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_8, 0);
-// 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, 0);
-// 	HAL_Delay(5);
-
-// }
 
 /* Init function for stepper motor .... */
 
