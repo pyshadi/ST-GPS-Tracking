@@ -12,7 +12,7 @@ The STM32 Nucleo-Board is utilized for programming and control purposes, using b
 The main code snippet, which includes the system initialization, infinite loop for distance and bearing calculation, and functions related to USART, GPIO, and UART. <br>
 
 ## triangula.c
-This file includes functions to calculate distance and bearing between two latitude and longitude coordinates. It also contains functions to control a stepper motor for the pointer (arrow) direction.<br>
+This file includes functions to calculate distance and bearing between two latitude and longitude coordinates. It also contains functions to control a stepper motor for the (arrow) direction pointer.<br>
 
 ## How to Build and Run
 Set Up Environment: Make sure you have the STM32 development environment installed. You may also need specific drivers or tools based on the STM32 Nucleo-Board you are using.<br>
