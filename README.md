@@ -1,5 +1,5 @@
 # ST-GPS-Tracking
-As part of the BTE5053 "Embedded Software Development" module 2018, this project includes the development of a GPS receiver controlled by a custom-designed app, with a stepper motor indicating the direction to the destination. <br> 
+As part of the BTE5053 "Embedded Software Development" module 2018, this project includes the development of a GPS receiver controlled by a custom-designed Android app, with a stepper motor indicating the direction to the destination. <br> 
 The STM32 Nucleo-Board is utilized for programming and control purposes, using both assembler language and C. <br>
 
 ## Features
